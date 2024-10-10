@@ -13,6 +13,8 @@
 		929676C42CAAACA70000EB89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929676C22CAAACA70000EB89 /* Main.storyboard */; };
 		929676C62CAAACAD0000EB89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929676C52CAAACAD0000EB89 /* Assets.xcassets */; };
 		929676C92CAAACAD0000EB89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929676C72CAAACAD0000EB89 /* LaunchScreen.storyboard */; };
+		929676D42CAAB11D0000EB89 /* DynamicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929676D22CAAB11C0000EB89 /* DynamicTableViewCell.swift */; };
+		929676D52CAAB11D0000EB89 /* DynamicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 929676D32CAAB11D0000EB89 /* DynamicTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		929676C52CAAACAD0000EB89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		929676C82CAAACAD0000EB89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		929676CA2CAAACAD0000EB89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		929676D22CAAB11C0000EB89 /* DynamicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTableViewCell.swift; sourceTree = "<group>"; };
+		929676D32CAAB11D0000EB89 /* DynamicTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DynamicTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				929676C52CAAACAD0000EB89 /* Assets.xcassets */,
 				929676C72CAAACAD0000EB89 /* LaunchScreen.storyboard */,
 				929676CA2CAAACAD0000EB89 /* Info.plist */,
+				929676D22CAAB11C0000EB89 /* DynamicTableViewCell.swift */,
+				929676D32CAAB11D0000EB89 /* DynamicTableViewCell.xib */,
 			);
 			path = dynamictableview;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				929676C92CAAACAD0000EB89 /* LaunchScreen.storyboard in Resources */,
+				929676D52CAAB11D0000EB89 /* DynamicTableViewCell.xib in Resources */,
 				929676C62CAAACAD0000EB89 /* Assets.xcassets in Resources */,
 				929676C42CAAACA70000EB89 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				929676C12CAAACA70000EB89 /* ViewController.swift in Sources */,
+				929676D42CAAB11D0000EB89 /* DynamicTableViewCell.swift in Sources */,
 				929676BD2CAAACA70000EB89 /* AppDelegate.swift in Sources */,
 				929676BF2CAAACA70000EB89 /* SceneDelegate.swift in Sources */,
 			);
